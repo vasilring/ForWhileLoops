@@ -145,11 +145,56 @@
 //        }
 
 //         else 
-    
+
 //         { 
-        
+
 //                 Console.WriteLine("Invalid input, please try again and enter 3 digit number"); 
-    
+
 //         }
 
 //}  
+
+//------------------------------------------------------------------------------------------------------------------------------------
+
+//Number Wave
+//Description
+//Write a program that prints a wave till a certain number and backward.
+
+//Input
+
+//On the first line, you will receive the number N.
+
+//Output
+
+//Print a "wave" i.e. the numbers from 1 to N and then the numbers from N - 1 to 1 on a single line separated by space.
+//Constraints
+
+//1 <= N <= 1000
+
+//Sample tests
+
+//Input
+
+//3
+
+//Output
+
+//1 2 3 2 1
+
+//int number = int.Parse(Console.ReadLine());
+
+//for (int i = 1;i <= number; i++)
+
+//{
+
+//    Console.Write(i + " ");
+
+//}
+
+//for (int z = number - 1; z >= 1; z--)
+
+//{
+
+//    Console.Write(z + " ");
+
+//}
