@@ -101,6 +101,8 @@
 // Balanced Number
 
 // Balanced Number is a 3 digit number whose second digit is equal to the sum of the first and the third digit
+// Input 132     Output 132
+//       123
 
 
 //int inputs = 1000;
@@ -108,6 +110,7 @@
 //for (int i = 1;i < inputs; i++)
 
 //{
+
 //    int number = int.Parse(Console.ReadLine());
 
 //    int firstNumber = number / 100;
@@ -118,54 +121,35 @@
 
 //    int sum = firstNumber + thirdNumber;
 
-//    if (number.ToString().Length == 3)
-
-//    {
-
-//        if (sum == secondNumber)
+//        if (number.ToString().Length == 3)
 
 //        {
-//            Console.WriteLine(number);
-//            continue;
+
+//             if (sum == secondNumber)
+
+//             {
+//                  Console.WriteLine(number);
+
+//                     continue;
+
+//             }
+
+//             else if (sum > secondNumber) 
+
+//             {
+
+//                    break;
+
+//             }
 
 //        }
 
-//        else if (sum > secondNumber) 
-//        {
+//         else 
+    
+//         { 
+        
+//                 Console.WriteLine("Invalid input, please try again and enter 3 digit number"); 
+    
+//         }
 
-//            break;
-
-//        }
-
-//    }
-
-//    else 
-
-//    { 
-
-//        Console.WriteLine("Invalid input, please try again and enter 3 digit number"); 
-
-//    }
 //}  
-
-int number = int.Parse(Console.ReadLine());
-for (int a = 0; a <= 9; a++)
-{
-    for (int b = 0; b <= 9; b++)
-    {
-        for (int c = 0; c <= 9; c++)
-        {
-            if (a + c == b && a * 100 + b * 10 + c == number)
-            {
-                Console.WriteLine($"{a}{b}{c}");
-                number = int.Parse(Console.ReadLine());
-                break;
-            }
-        }
-    }
-}
-
-
-
-
-
