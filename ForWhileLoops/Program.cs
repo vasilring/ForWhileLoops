@@ -293,30 +293,30 @@
 //Output
 //macaroni
 
-string food = " ";
-string maxLength = " ";
+//string food = " ";
+//string maxLength = " ";
 
-while (true) 
-{ 
-    food = Console.ReadLine();
+//while (true) 
+//{ 
+//    food = Console.ReadLine();
 
-        if (food == "END")
+//        if (food == "END")
 
-            {
+//            {
 
-             break;
+//             break;
 
-            }
+//            }
 
-        if(food.Length >= maxLength.Length)
-    {
-        maxLength = food;
-    }
+//        if(food.Length >= maxLength.Length)
+//    {
+//        maxLength = food;
+//    }
 
     
-}
+//}
 
-Console.WriteLine(maxLength);
+//Console.WriteLine(maxLength);
 
 
 
