@@ -313,10 +313,65 @@
 //        maxLength = food;
 //    }
 
-    
+
 //}
 
 //Console.WriteLine(maxLength);
+
+//Smaller, greater or equal?
+//Description
+//Write a program that reads from the console a sequence of n integer numbers and prints these numbers with the correct sign between them.
+
+//Input
+//On the first line, you will receive the number N
+//On each of the next N lines, you will receive a number
+//Output
+//Print on a single line with "<", ">" or "=" between the numbers.
+//Constraints
+//1 <= N <= 1000
+//Sample tests
+//Input
+//3
+//2
+//5
+//1
+
+//string result = "";
+//int temp = 0;
+
+//int count = int.Parse(Console.ReadLine());
+//for (int i = 0; i < count - 1; i++)
+//{
+//    if (i == 0)
+//    {
+//        int num = int.Parse(Console.ReadLine());
+//        temp = num;
+//        result += num;
+//    }
+//    int current = int.Parse(Console.ReadLine());
+
+//    if (current > temp)
+//    {
+//        result += "<" + current;
+//        temp = current;
+//    }
+//    else if (current < temp)
+//    {
+//        result += ">" + current;
+//        temp = current;
+//    }
+//    else if (current == temp)
+//    {
+//        result += "=" + current;
+//    }
+//}
+//Console.WriteLine(result);
+
+// Мисли задачата утре - ВАЖНО!!!!
+// Мисли задачата утре - ВАЖНО!!!!
+
+
+
 
 
 
