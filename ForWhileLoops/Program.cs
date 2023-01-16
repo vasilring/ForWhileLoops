@@ -249,7 +249,7 @@
 //You must not use any built-in exponent function or operator.
 
 //For example, do not use pow(x, 0.5) in c++ or x ** 0.5 in python.
- 
+
 
 //Example 1:
 
@@ -270,3 +270,53 @@
 
 
 //Console.WriteLine(finalNumber);
+
+//Longest String
+//You are very hungry, but there is a problem - there is just too much options and you can only eat one thing. Being a clever programmer, you decide to form objective critera and eat the food with the longest name. Also, why count manually in 30 seconds, when you can spend 15 minutes writing a script to do the counting?
+
+//Input
+//The input consists of at least 2 lines
+//The last line is always END
+//Each different food is on a new line
+//Output
+//Print the food with the longest name. If two or more foods have equal length, print the last one.
+//Constraints
+//1 <= lines of input <= 50 The last line will always be END
+
+//Sample Tests
+//Input
+//pizza
+//macaroni
+//kiufte
+//banica
+//END
+//Output
+//macaroni
+
+string food = " ";
+string maxLength = " ";
+
+while (true) 
+{ 
+    food = Console.ReadLine();
+
+        if (food == "END")
+
+            {
+
+             break;
+
+            }
+
+        if(food.Length >= maxLength.Length)
+    {
+        maxLength = food;
+    }
+
+    
+}
+
+Console.WriteLine(maxLength);
+
+
+
