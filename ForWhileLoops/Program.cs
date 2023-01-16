@@ -198,3 +198,75 @@
 //    Console.Write(z + " ");
 
 //}
+
+// Write a program that calculates N! / K! for given N and K
+// * Use only one loop
+// 1 < K < N < 100
+
+
+//ulong n = ulong.Parse(Console.ReadLine());
+//ulong k = ulong.Parse(Console.ReadLine());
+
+//ulong factorialN = 1;
+//ulong factorialK = 1;
+
+//do
+
+//{
+
+//    if (n > 0)
+//    {
+//        factorialN *= n;
+
+//        n -= 1;
+//    }
+
+
+//    if (k > 0)
+//    {
+//        factorialK *= k;
+
+//        k -= 1;
+//    }
+
+
+
+//}
+
+//while ((n > 0) || (k > 0));
+
+//ulong sum = factorialN / factorialK;
+
+//Console.WriteLine(sum);
+
+
+// New
+//Sqrt(x)
+//Easy
+
+//Given a non-negative integer x, return the square root of x rounded down to the nearest integer. The returned integer should be non-negative as well.
+
+//You must not use any built-in exponent function or operator.
+
+//For example, do not use pow(x, 0.5) in c++ or x ** 0.5 in python.
+ 
+
+//Example 1:
+
+//Input: x = 4
+//Output: 2
+//Explanation: The square root of 4 is 2, so we return 2.
+//Example 2:
+
+//Input: x = 8
+//Output: 2
+//Explanation: The square root of 8 is 2.82842..., and since we round it down to the nearest integer, 2 is returned.
+
+//double numberSqrt = double.Parse(Console.ReadLine());
+
+//double sqrt = Math.Sqrt(numberSqrt);
+
+//double finalNumber = Math.Floor(sqrt);
+
+
+//Console.WriteLine(finalNumber);
