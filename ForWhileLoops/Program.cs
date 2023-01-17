@@ -56,6 +56,7 @@
 
 //}
 
+//-----------------------------------------------------------------------------------------------------------------------------------------------
 
 // Prime numbers
 // Print all the prime numbers between 1 and N
@@ -97,6 +98,7 @@
 
 //}
 
+//-----------------------------------------------------------------------------------------------------------------------------------------------
 
 // Balanced Number
 
@@ -199,6 +201,8 @@
 
 //}
 
+//-----------------------------------------------------------------------------------------------------------------------------------------------
+
 // Write a program that calculates N! / K! for given N and K
 // * Use only one loop
 // 1 < K < N < 100
@@ -239,6 +243,7 @@
 
 //Console.WriteLine(sum);
 
+//-----------------------------------------------------------------------------------------------------------------------------------------------
 
 // New
 //Sqrt(x)
@@ -271,8 +276,12 @@
 
 //Console.WriteLine(finalNumber);
 
+//-----------------------------------------------------------------------------------------------------------------------------------------------
+
 //Longest String
-//You are very hungry, but there is a problem - there is just too much options and you can only eat one thing. Being a clever programmer, you decide to form objective critera and eat the food with the longest name. Also, why count manually in 30 seconds, when you can spend 15 minutes writing a script to do the counting?
+//You are very hungry, but there is a problem - there is just too much options and you can only eat one thing. Being a clever programmer, you decide to
+//form objective critera and eat the food with the longest name. Also, why count manually in 30 seconds,
+//when you can spend 15 minutes writing a script to do the counting?
 
 //Input
 //The input consists of at least 2 lines
@@ -317,6 +326,8 @@
 //}
 
 //Console.WriteLine(maxLength);
+
+//-----------------------------------------------------------------------------------------------------------------------------------------------
 
 //Smaller, greater or equal?
 //Description
@@ -370,6 +381,8 @@
 // Мисли задачата утре - ВАЖНО!!!!
 // Мисли задачата утре - ВАЖНО!!!!
 
+//-----------------------------------------------------------------------------------------------------------------------------------------------
+
 // New Task
 
 //Pyramid of number
@@ -402,15 +415,92 @@
 //    Console.WriteLine();
 //}    
 
+//-----------------------------------------------------------------------------------------------------------------------------------------------
+
+// New Task Legs !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+
+// No description dont read
+
+//int legs = int.Parse(Console.ReadLine());
+
+//int chickenLegs = 14;
+
+//int totalChickens = 0;
+
+//int remainder = legs % 14;
+
+//int z = remainder;
+
+//for (int i = 0;i <= (legs / chickenLegs); i++)
+//{
+//	totalChickens = i;
+//}
+
+//if (z == 0) { 
+//Console.WriteLine(totalChickens*3);
+//}
+//if (z <= 2 ) 
+//{ Console.WriteLine(totalChickens * 3 + 1); }
+
+//if (z <= 4)
+//{ Console.WriteLine(totalChickens * 3 + 2); }
+
+//if (z> 5 && z < 10)
+//{
+//	Console.WriteLine(totalChickens * 3 + 3);
+//}
+//Console.WriteLine(z);
+
+//-----------------------------------------------------------------------------------------------------------------------------------------------
+
+//Exam Numbers
+//While studying for the exam, you get frustrated with all the boring tasks and decide to come up with a task of your own.
+//You want to find all the 3-digit numbers that are in some interval and whose sum of digits equal some target.
+//You decide to name them exam numbers for good fortune.
+
+//Write a program that prints those exam numbers in increasing sequence.
+
+//Input
+//The input consists of exactly 3 lines
+//x - interval start (inclusive)
+//y - interval end(inclusive)
+//t - target sum
+//Output
+//Output all the exam numbers on a new line
+//Constraints
+//100 <= x < y <= 999
+
+//Sample Tests
+//Input
+//100
+//200
+//12
+//Output
+//129
+//138
+//147
+//156
+//165
+//174
+//183
+//192
 
 
+//int input = int.Parse(Console.ReadLine());
+//int input2 = int.Parse(Console.ReadLine());
+//int input3 = int.Parse(Console.ReadLine());
 
+//for (int i = input; i <= input2; i++) {
 
+//	int number1 = i % 10;
+//	int number2 = (i / 10) % 10;
+//	int number3 = (i / 10) / 10;
 
+//	int total = number1 + number2 + number3;
 
-   
+//	if (total == input3)
+//	{
+//		Console.WriteLine(i);
+//	}
 
-
-
-
-
+//}
