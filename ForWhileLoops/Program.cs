@@ -370,6 +370,45 @@
 // Мисли задачата утре - ВАЖНО!!!!
 // Мисли задачата утре - ВАЖНО!!!!
 
+// New Task
+
+//Pyramid of number
+//1
+//12
+//123
+//12
+//1
+
+//using System.Globalization;
+
+//int number = int.Parse(Console.ReadLine());
+
+//// Increment value
+//for (int i = 1; i <= number; i++)
+//{
+//    for (int j = 1; j <= i; j++)
+//    {
+//        Console.Write(j + " ");
+//    }
+//    Console.WriteLine();
+//}
+//// Decrement value
+//for (int i = number-1; i >= 1; i--)
+//{
+//    for (int j = 1; j <= i; j++)
+//    {
+//        Console.Write(j + " ");
+//    }
+//    Console.WriteLine();
+//}    
+
+
+
+
+
+
+
+   
 
 
 
