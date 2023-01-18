@@ -504,3 +504,88 @@
 //	}
 
 //}
+
+//Prime numbers
+// Print all the prime numbers between 1 and N
+// N is an input
+// 1 is a prime number && 1<= N <=1024
+
+//using System.Globalization;
+
+//int number = int.Parse(Console.ReadLine());
+
+//for (int i = number; i >= 1; i--)
+//{
+//    bool prime = true;
+//    for (int z = 2; z >= Math.Sqrt(i); z--)
+//    {
+//        if (i % z == 0)
+//        {
+//            prime = false;
+//            break;
+//        }
+//    }
+//    if (prime)
+//    {
+//        Console.Write(i + " ");
+//    }
+//}
+
+
+// Biggest Prime Number
+
+//int n = int.Parse(Console.ReadLine());
+
+//bool prime = true;
+
+//for (int i = n; i >= 2; i--)
+//	{
+//	for (int j = i - 1; j >= 2; j--)
+//	{
+//		if (i % j == 0)
+//		{
+//			prime = false;
+//			break;
+//		}
+
+//	}
+
+//	if (prime)
+//	{
+
+//		Console.WriteLine(i);
+//		break;
+
+//	}
+//	prime = true;
+//}
+
+// New Task
+
+//string myStr = Console.ReadLine();
+
+//int i, len, vowel;
+
+//vowel = 0;
+
+//len = myStr.Length;
+
+//for (i = 0; i < len; i++)
+//{
+//	if (myStr[i] == 'a' || myStr[i] == 'e' || myStr[i] == 'i' || myStr[i] == 'o' || myStr[i] == 'u' || myStr[i] == 'y')
+//	{
+//		vowel++;
+//	}
+//}
+
+//int cons = len - vowel;
+
+//if (vowel == len)
+//{
+//	Console.WriteLine("Yes");
+//}
+
+//else
+//{
+//	Console.WriteLine($"{vowel} {cons}");
+//}
